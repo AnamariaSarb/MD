@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <item name="red" type="color">#FFFF4444</item>
+    <string name="app_name">Pug Life</string>
+    <string name="action_settings">Settings</string>
+    <string name="old_password">Old Password</string>
+     <string name="change_password">Change password</string>
+     <string name="o_password">Old Password:</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="action_logout">Log out</string>
+    <string name="username">Username:</string>
+    <string name="sign_up_label">Sign up</string>
+    <string name="password_label">Password:</string>
+    <string name="txt_editablepassword">Password</string>
+    <string name="already_have_an_account_label">Already have an account? Log in!</string>
+    <string name="log_in_label">Log In</string>
+    <string name="dont_have_an_account_label">&quot;Don't have an account? Register!&quot;</string>
+    <string name="email">E-mail:</string>
+    <string name="SignUp">Sign up</string>
+    <string name="LogIn">Log in</string>
+    <string name="Welcome">Welcome</string>
+    <string name="title_welcome">Pug Life</string>
+    <string name="image">image</string>
+    <string name="saveprofile">Save profile</string>
+    <string name="selectphoto">Select photo</string>
+    <string name="logout">Log out</string>
+    <string name="txt_welcome">&quot;Welcome,&quot;</string>
+
+</resources>

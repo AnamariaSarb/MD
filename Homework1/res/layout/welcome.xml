@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" > 
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/apug"
+        android:contentDescription="@string/image" />
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="23dp"
+        android:layout_toLeftOf="@+id/LogIn"
+        android:background="#33b5e5"
+        android:minHeight="40dip"
+        android:minWidth="75dip"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/SignUp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/LogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/SignUp"
+        android:layout_alignBottom="@+id/SignUp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:minHeight="47dp"
+        android:minWidth="70dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/LogIn"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
